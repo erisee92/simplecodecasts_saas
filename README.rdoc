@@ -1,7 +1,8 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Coder Manual Project Application
+Subscription-based web application
+https://mighty-basin-8841.herokuapp.com/
 
 Things you may want to cover:
 
@@ -21,7 +22,7 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ... Test Bla Bla bla
+* ...
 
 
 Please feel free to use a different markup language if you do not plan to run
