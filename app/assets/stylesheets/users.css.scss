@@ -1,3 +1,10 @@
+.profile_avatar {
+  border-radius: 50%;
+  -webkit-box-shadow: 17px 13px 28px -5px rgba(0,0,0,0.39);
+  -moz-box-shadow: 17px 13px 28px -5px rgba(0,0,0,0.39);
+  box-shadow: 17px 13px 28px -5px rgba(0,0,0,0.39);
+}
+
 .job-title-icon {
   display: inline-block;
   width: 30px;
@@ -22,4 +29,7 @@
 .well.contact-info {
   background-color: #5bc0de;
   border-color: #46b8da;
+  a {
+      color: #fff;
+  }
 }
