@@ -1,10 +1,11 @@
 .profile_avatar {
   border-radius: 50%;
-  -webkit-box-shadow: 17px 13px 28px -5px rgba(0,0,0,0.39);
-  -moz-box-shadow: 17px 13px 28px -5px rgba(0,0,0,0.39);
-  box-shadow: 17px 13px 28px -5px rgba(0,0,0,0.39);
+  -webkit-box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.39);
+  -moz-box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.39);
+  box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.39);
 }
 
+/* Users Show Page Styles */
 .job-title-icon {
   display: inline-block;
   width: 30px;
@@ -32,4 +33,9 @@
   a {
       color: #fff;
   }
+}
+
+/* Users Index Page Styles */
+.well.white-bg {
+  background-color: white;
 }
