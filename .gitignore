@@ -17,3 +17,6 @@
 
 # Ignore application configuration
 /config/application.yml
+
+# Ignore Dev Avatars 
+/public/system/profiles/avatars
