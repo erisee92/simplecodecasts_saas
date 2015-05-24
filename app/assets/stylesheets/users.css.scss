@@ -39,3 +39,12 @@
 .well.white-bg {
   background-color: white;
 }
+.well.row {
+  min-height: 20px;
+}
+
+@media (max-width: 768px){
+  .well.row {
+    text-align: center;
+  }
+}

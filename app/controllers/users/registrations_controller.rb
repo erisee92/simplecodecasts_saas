@@ -14,6 +14,19 @@ class Users::RegistrationsController < Devise::RegistrationsController
     end
   end
   
+  def destroy
+    @user = current_user
+    if @user.stripe_customer_token
+      puts "Test20"
+      customer = Stripe::Customer.retrieve(@user.stripe_customer_token)
+      customer.cancel_subscription()
+    end
+    if @user.destroy
+      flash.alert = "Your subscription and account has been cancelled successfully!"
+      redirect_to root_path
+    end
+  end
+  
   private
     def select_plan
       unless params[:plan] && (params[:plan] == '1' || params[:plan] == '2')
