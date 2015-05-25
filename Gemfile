@@ -44,6 +44,8 @@ gem 'stripe', '1.21.0'
 gem 'figaro', '1.1.1'
 # use paperclip for image uploads
 gem 'paperclip', '4.2.1'
+# use aws sdk to upload pictures
+gem 'aws-sdk', '< 2.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
