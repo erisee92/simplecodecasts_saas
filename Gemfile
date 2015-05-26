@@ -47,6 +47,9 @@ gem 'paperclip', '4.2.1'
 # use aws sdk to upload pictures
 gem 'aws-sdk', '< 2.0'
 
+# User Material Design for Bootstrap
+gem 'bootstrap-material-design'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
