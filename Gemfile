@@ -47,6 +47,11 @@ gem 'paperclip', '4.2.1'
 # use aws sdk to upload pictures
 gem 'aws-sdk', '< 2.0'
 
+# use polymer for material design
+gem 'polymer-rails'
+gem 'polymer-core-rails'
+gem 'polymer-paper-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
